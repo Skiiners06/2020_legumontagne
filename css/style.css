@@ -20,4 +20,34 @@
       justify-content: center;
 }
 
+.TitreTitre {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: center;
+      justify-content: center;
+}
+
+.cadre_jaune_menu {
+  background-color: #E4E411;
+}
+
+.cadre_vert_menu {
+  background-color: #8CDC32;
+}
+
+.TitrePrincipalBio {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.image-logo {
+  height: 50px;
+}
+
+.bgmobile_photo {
+  height: 160px;
+}
+
 /*# sourceMappingURL=style.css.map */

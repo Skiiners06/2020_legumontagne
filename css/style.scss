@@ -1,6 +1,6 @@
 
 $vert : #4e6131;
-$jaune: #554e2e;
+$jaune: #E4E411;
 
 .filtre_vert {
   background-color:$vert;
@@ -19,3 +19,46 @@ $jaune: #554e2e;
   display:flex;
   justify-content: center;
 }
+
+%center {
+  display: flex;
+  justify-content: center;
+}
+
+.TitreTitre {
+  @extend %center;
+}
+
+@mixin cadre-jaune{
+  background-color:$jaune;
+
+}
+
+.cadre_jaune_menu{
+  @include cadre-jaune;
+
+}
+
+@mixin cadre-vert{
+  background-color: #8CDC32;
+
+}
+
+.cadre_vert_menu{
+  @include cadre-vert;
+}
+
+.TitrePrincipalBio{
+  display:flex;
+  justify-content: space-around;
+}
+
+.image-logo{
+  height:50px;
+
+}
+
+.bgmobile_photo{
+  height: 160px;
+}
+
