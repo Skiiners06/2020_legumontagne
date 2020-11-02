@@ -2,6 +2,7 @@
 $vert : #4e6131;
 $jaune: #E4E411;
 
+
 .filtre_vert {
   background-color:$vert;
 }
@@ -13,8 +14,15 @@ $jaune: #E4E411;
 .LienHeader {
   display:flex;
   justify-content: space-between;
+  margin:5px;
 }
 
+
+h2 a{
+  color:#000000;
+  font-size:18px;
+
+}
 .Logo {
   display:flex;
   justify-content: center;
@@ -31,6 +39,8 @@ $jaune: #E4E411;
 
 @mixin cadre-jaune{
   background-color:$jaune;
+  flex-grow: 1;
+
 
 }
 
@@ -40,7 +50,9 @@ $jaune: #E4E411;
 }
 
 @mixin cadre-vert{
+
   background-color: #8CDC32;
+  flex-grow: 1;
 
 }
 
@@ -51,6 +63,7 @@ $jaune: #E4E411;
 .TitrePrincipalBio{
   display:flex;
   justify-content: space-around;
+
 }
 
 .image-logo{
@@ -59,6 +72,40 @@ $jaune: #E4E411;
 }
 
 .bgmobile_photo{
-  height: 160px;
+  //background-image:url("./img/background.jpg");
+
+  width:100%;
+}
+
+.newsLegumesPain {
+  margin-top:50px;
+  margin-left: 50px;
+}
+
+.newsLegumes{
+  display: flex;
+}
+
+.presentLegumes{
+  display:flex;
+  margin-top:10px;
+}
+
+.actu {
+  margin-top:10px;
+  margin-right:20px;
+}
+
+.texte_actu{
+  width:70%
+}
+
+.newsPain{
+  display:flex;
+}
+
+.presentPain{
+  display:flex;
+  margin-top:10px;
 }
 

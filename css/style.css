@@ -11,6 +11,12 @@
   display: flex;
   -ms-flex-pack: justify;
       justify-content: space-between;
+  margin: 5px;
+}
+
+h2 a {
+  color: #000000;
+  font-size: 18px;
 }
 
 .Logo {
@@ -29,10 +35,14 @@
 
 .cadre_jaune_menu {
   background-color: #E4E411;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
 }
 
 .cadre_vert_menu {
   background-color: #8CDC32;
+  -ms-flex-positive: 1;
+      flex-grow: 1;
 }
 
 .TitrePrincipalBio {
@@ -47,7 +57,43 @@
 }
 
 .bgmobile_photo {
-  height: 160px;
+  width: 100%;
+}
+
+.newsLegumesPain {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+.newsLegumes {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.presentLegumes {
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
+}
+
+.actu {
+  margin-top: 10px;
+  margin-right: 20px;
+}
+
+.texte_actu {
+  width: 70%;
+}
+
+.newsPain {
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.presentPain {
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 10px;
 }
 
 /*# sourceMappingURL=style.css.map */
